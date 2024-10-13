@@ -1,6 +1,6 @@
-export default function CountryName({params}:any){
+export default function CountryName({params}:  { params: { country_name: string } }  ){
 
-
+    
 
 
 const countries:{
