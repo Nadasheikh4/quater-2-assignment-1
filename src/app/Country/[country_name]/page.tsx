@@ -39,7 +39,7 @@ function findCountry(Country_url:string){
 
 }
 
-let result = findCountry(params.country_name);
+const result = findCountry(params.country_name);
 
 
 
